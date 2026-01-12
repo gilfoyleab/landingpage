@@ -1,4 +1,5 @@
-# AuditPal Landing Page
+# AuditPal Landing Page 
+
 
 This is the standalone landing page for AuditPal - Decentralized AI Security.
 
