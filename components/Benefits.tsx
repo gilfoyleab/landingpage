@@ -103,7 +103,7 @@ export function Benefits() {
                     {/* Card 3 */}
                     <BenefitCard
                         title="Dynamic Fuzzing"
-                        subtitle="Millions of edge cases, simulated instantly."
+                        subtitle="Thousands of edge cases, simulated instantly."
                         index={2}
                     >
                         <div className="relative w-full h-full flex flex-col p-8">

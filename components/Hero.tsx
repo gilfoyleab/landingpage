@@ -30,8 +30,8 @@ export function Hero() {
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                         className="text-3xl sm:text-4xl md:text-7xl font-black uppercase tracking-[-0.02em] leading-[1.1] text-white"
                     >
-                        <span className="block">Autonomous AI</span>
-                        <span className="text-zinc-500 block">Contract Assurance</span>
+                        <span className="block"> AI Agents For</span>
+                        <span className="text-zinc-500 block">Solidity Security</span>
                     </motion.h1>
 
                     <motion.div

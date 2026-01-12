@@ -17,7 +17,7 @@ export function Footer() {
                         </h2>
                     </div>
                     <p className="text-zinc-500 text-lg font-medium max-w-sm leading-relaxed">
-                        Join the 1,200+ teams building the next generation of finance on an unbreakable foundation.
+                        Join the 12 + teams building the next generation of Smart contract auditing on an unbreakable foundation.
                     </p>
                 </div>
 

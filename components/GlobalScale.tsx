@@ -39,7 +39,7 @@ export function GlobalScale() {
                                 viewport={{ once: true }}
                                 className="text-4xl md:text-8xl font-black uppercase tracking-tight text-white leading-[1.1]"
                             >
-                                Your Code. <br />
+                                Your Code<br />
                                 <span className="inline-block pr-4 text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-700">Hardened.</span>
                             </motion.h2>
 
@@ -246,7 +246,7 @@ export function GlobalScale() {
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
                 className="absolute left-0 right-0 h-[300px] bg-gradient-to-b from-transparent via-kast-teal/5 to-transparent pointer-events-none z-0"
             />
-        </section>
+        </section >
     );
 }
 

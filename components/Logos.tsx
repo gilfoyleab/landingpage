@@ -3,21 +3,21 @@
 import { motion } from "framer-motion";
 
 const logos = [
-    "Bittensor",
     "Ethereum",
-    "OpenZeppelin",
-    "Solidity",
-    "Certora",
-    "ImmuneFi",
-    "SlowMist",
-    "Quantstamp",
+    "Arbitrum",
+    "Optimism",
+    "Polygon",
+    "Base",
+    "BSC",
+    "Avalanche",
+    "Linea",
 ];
 
 export function Logos() {
     return (
         <section className="py-16 bg-black overflow-hidden border-b border-white/5">
             <div className="text-center mb-12">
-                <span className="text-white text-sm uppercase tracking-[0.3em] font-bold opacity-80">Technical Partners & Ecosystem</span>
+                <span className="text-white text-sm uppercase tracking-[0.3em] font-bold opacity-80">Supported Chains & Ecosystem</span>
             </div>
 
             <div className="relative flex overflow-x-hidden group">

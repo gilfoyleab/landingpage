@@ -15,7 +15,7 @@ const faqs = [
     },
     {
         question: "What blockchains are supported?",
-        answer: "AuditPal currently supports Solidity (Ethereum, Polygon, BSC, Arbitrum, Optimism), Rust (Solana), and Move (Aptos, Sui). We're continuously adding support for more chains and languages."
+        answer: "AuditPal currently supports Ethereum, Arbitrum, Optimism, Polygon, Base, BSC, Avalanche, and Linea. We're continuously adding support for more chains and languages."
     },
     {
         question: "How long does an audit take?",

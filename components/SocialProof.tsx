@@ -61,7 +61,7 @@ export function SocialProof() {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                 >
-                                    500,000
+                                    500 +
                                 </motion.h2>
                                 <motion.h2
                                     className="text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter text-white leading-[1.1]"
