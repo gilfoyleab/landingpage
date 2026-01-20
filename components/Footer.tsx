@@ -26,14 +26,14 @@ export function Footer() {
                     <FooterColumn
                         title="Network"
                         links={[
-                            { label: "Subnet", href: "https://audit-subnet.vercel.app/" }
+                            { label: "Subnet", href: "https://subnet.auditpal.io" }
                         ]}
                     />
                     <FooterColumn
                         title="Platform"
                         links={[
-                            { label: "Benchmark", href: "https://audit-subnet.vercel.app/optimize" },
-                            { label: "Playground", href: "https://audit-subnet.vercel.app/optimize" }
+                            { label: "Benchmark", href: "https://subnet.auditpal.io/playground" },
+                            { label: "Playground", href: "https://subnet.auditpal.io/optimize" }
                         ]}
                     />
                     <FooterColumn
