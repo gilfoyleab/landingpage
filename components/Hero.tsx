@@ -59,12 +59,22 @@ export function Hero() {
                         transition={{ delay: 0.6, duration: 0.8 }}
                         className="flex flex-wrap items-center gap-4 mt-4"
                     >
-                        <button className="w-full sm:w-auto px-8 py-4 bg-kast-teal text-black text-lg font-bold rounded-full hover:scale-105 transition-transform">
+                        <a
+                            href="http://app.auditpal.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full sm:w-auto px-8 py-4 bg-kast-teal text-black text-lg font-bold rounded-full hover:scale-105 transition-transform text-center"
+                        >
                             Start Your First Audit
-                        </button>
-                        <button className="w-full sm:w-auto px-8 py-4 bg-transparent border border-white/20 text-white text-lg font-medium rounded-full hover:bg-white/5 transition-colors flex items-center justify-center gap-2">
-                            Explore Agents <ArrowRight className="w-5 h-5" />
-                        </button>
+                        </a>
+                        <a
+                            href="https://www.gitbook.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full sm:w-auto px-8 py-4 bg-transparent border border-white/20 text-white text-lg font-medium rounded-full hover:bg-white/5 transition-colors flex items-center justify-center gap-2"
+                        >
+                            Read Docs <ArrowRight className="w-5 h-5" />
+                        </a>
                     </motion.div>
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 mt-8">

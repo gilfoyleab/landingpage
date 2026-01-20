@@ -8,6 +8,9 @@ const instrumentSans = Instrument_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "AuditPal | Decentralized AI Security",
     description: "The gold standard for AI smart contract auditing.",
+    icons: {
+        icon: "/favicon_final.png",
+    },
 };
 
 export default function RootLayout({

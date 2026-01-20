@@ -22,25 +22,20 @@ export function Footer() {
                 </div>
 
                 {/* Links Grid - Compact Right Aligned */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-12 md:gap-16">
+                <div className="grid grid-cols-2 sm:grid-cols-2 gap-12 md:gap-16">
                     <FooterColumn
-                        title="Network"
+                        title="Ecosystem"
                         links={[
-                            { label: "Subnet", href: "https://subnet.auditpal.io" }
-                        ]}
-                    />
-                    <FooterColumn
-                        title="Platform"
-                        links={[
-                            { label: "Benchmark", href: "https://subnet.auditpal.io/playground" },
-                            { label: "Playground", href: "https://subnet.auditpal.io/optimize" }
+                            { label: "Subnet Dashboard", href: "https://subnet.auditpal.io" },
+                            { label: "Audit Platform", href: "http://app.auditpal.io/" },
+                            { label: "Become a Miner", href: "https://github.com/Audit-Pal/auditpal-subnet" }
                         ]}
                     />
                     <FooterColumn
                         title="Resources"
                         links={[
-                            { label: "Docs" },
-                            { label: "GitHub" }
+                            { label: "Docs", href: "https://www.gitbook.com/" },
+                            { label: "GitHub", href: "https://github.com/Audit-Pal" }
                         ]}
                     />
                 </div>
@@ -54,9 +49,9 @@ export function Footer() {
                 </div>
 
                 <div className="flex items-center gap-6 cursor-default">
-                    <span className="hover:text-kast-teal transition-colors">Twitter</span>
-                    <span className="hover:text-kast-teal transition-colors">Discord</span>
-                    <span className="hover:text-kast-teal transition-colors">Telegram</span>
+                    <a href="https://x.com/auditpal_io" target="_blank" rel="noopener noreferrer" className="hover:text-kast-teal transition-colors">Twitter</a>
+                    <a href="https://discord.com/invite/bittensor" target="_blank" rel="noopener noreferrer" className="hover:text-kast-teal transition-colors">Subnet Discord</a>
+                    <a href="https://www.gitbook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-kast-teal transition-colors">GitBook</a>
                 </div>
             </div>
         </footer>
